@@ -213,7 +213,7 @@ There are several formulas for calculating probabilities that I will not expand 
 
 ScikitLearn is a python library used for machine learning. The [wine dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html?highlight=wine) that I used here is one of the dataset in this library. You will find the [complete implementation](https://github.com/solweigH/Naive-Bayes-Classifier/blob/main/Wine.ipynb) made for this presentation of the naive bayes classifier, and below the main script.  
 
-![https://github.com/solweigH/Naive-Bayes-Classifier/blob/main/test.ipynb](https://moodle1.u-bordeaux.fr/draftfile.php/170439/user/draft/491516928/scriptBNA.png)  
+![https://github.com/solweigH/Naive-Bayes-Classifier/blob/main/test.ipynb](./scriptBNA.png)  
 
 ##### Result
 
