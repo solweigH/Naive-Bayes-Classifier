@@ -219,7 +219,7 @@ ScikitLearn is a python library used for machine learning. The [wine dataset](ht
 
 <span style="font-size:.9375rem;">The results are pretty good, (refer to [Model Evaluation Metrics](https://moodle1.u-bordeaux.fr/mod/wiki/view.php?pageid=3910) Block #1).</span>
 
-<span style="font-size:.9375rem;">![Confusion Matrix and Accuracy](https://moodle1.u-bordeaux.fr/pluginfile.php/941863/mod_wiki/attachments/1693/CM_BNA.PNG)  
+<span style="font-size:.9375rem;">![Confusion Matrix and Accuracy](./CM_BNA.PNG)  
 </span>
 
 <span style="font-size:.9375rem;">  
