@@ -23,12 +23,12 @@ Bayes' theorem is unusable as a classifier due to the complexity of the computat
 
 <span>This variant of Bayes' theorem is based on a strong hypothesis of independence between the attributes. </span>
 
-<span>\P(A1|C,A2,A3...An)=P(A1|C) 
+<span>\ P(A_1|C,A_2,A_3...A_n) = P(A_1|C)
 </span>
 
 <span>With this assumption it is possible to calculate the probability of each attribute independently of the others. This greatly simplifies the calculation.</span>
 
-<span>\p(C|A1,A2,...,An)=P(C)×P(A1,A2,...,An|C)P(A1,A2,...,An)⇔P(C)×P(A1|C)×P(A2|C)×P(An|C)P(A1,A2,...,An)⇔P(C)×Πni=1P(Ai|C)P(A1,A2,...,An) 
+<span>\P(C|A_1,A_2,...,A_n) = \frac{P(C) \times P(A_1,A_2,...,A_n|C) }{P(A_1,A_2,...,A_n)} \Leftrightarrow \frac{P(C) \times P(A_1|C) \times P(A_2|C) \times P(A_n|C) }{P(A_1,A_2,...,A_n)}\Leftrightarrow \frac{P(C) \times \Pi_{i=1}^{n}{P(A_i|C)} }{P(A_1,A_2,...,A_n)}
 </span>
 
 <span>  
@@ -40,7 +40,7 @@ Note that (P(A_1,A_2,...,A_n)) is not dependent on the class, so it should not b
 
 There are several formulas for calculating probabilities that I will not expand here because they depend on the data. In the case of quantitative data which seem to follow a normal distribution, we will apply Gaussian Naive Bayes.
 
-<span style="font-size:.9375rem;">\P(xi|y)=12πσ2√exp(−(xi−μy)22σ2y)
+<span style="font-size:.9375rem;">\P(x_i|y)= \frac{1}{ \sqrt{2 \pi \sigma^2 } }exp(- \frac{(x_i- \mu_y)^2 }{2 \sigma_y^2 }
 </span>
 
 <span>Where μ is the mean and σ the standard deviation.  
