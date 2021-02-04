@@ -3,7 +3,7 @@
 #### Solweig Hennechart
 Presentation of the Naive Bayes classifier for M1 bioinformatics students
 
-
+$\sum_{i=1}^n X_i$
 
 #### Introduction
 
